@@ -5,19 +5,12 @@ Debemos lograr tomar un nombre
  con 'prompt' 
 y luego mostrarlo por 'alert' 
 al presionar el botón  'mostrar'*/
-function mostrar()
+function mostrar() {
+	// decaración de variable.
+	let nombre;
 
-{
-    /*para declarar variables se una la palabra
-	reservada solo local unicamnete dentro
-	 de las llaves*/
+	// El " = " guarda de derecha a izquierda.
+	nombre = prompt("Ingrese su nombre");
 
-    let nombre;
-	/* asignación = es para guardar algo
-	 dentro de la cajita  */
-
-nombre= prompt("Ingrese su nombre");
-
-
-	alert(nombre);
+	alert(nombre + " Este es tu nombre?");
 }
