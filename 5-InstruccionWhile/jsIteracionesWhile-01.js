@@ -5,17 +5,12 @@ function mostrar() {
 	let contador;
 
 	contador = 1;
-	/*
-		while (contador <=10) {
 	
-			alert("Numero: " + contador);
+		while (contador <=10) {
+			document.write("Numero: " + contador+"<br>");
+			//alert("Numero: " + contador);
+			//	console.log("Numero: " + contador);
 			contador = contador + 1;
 	
 		}
-		*/
-	for (contador = 1; contador <= 10; contador++) {
-		console.log("Numero: " + contador);
-
-	}
-
 }//FIN DE LA FUNCIÓN
